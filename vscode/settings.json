@@ -1,0 +1,19 @@
+{
+    "chat.mcp.gallery.enabled": true,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c23",
+    "claudeCode.preferredLocation": "panel",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "editor.tabSize": 2,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "workbench.colorTheme": "Catppuccin Mocha"
+}

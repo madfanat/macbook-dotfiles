@@ -1,0 +1,70 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-haiku-4.5",
+      "enable_thinking": false
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "edit_predictions": {
+    "mode": "eager",
+    "copilot": {
+      "enable_next_edit_suggestions": true
+    },
+    "provider": "none",
+  },
+  "ui_font_family": ".SystemUIFont",
+  "agent_ui_font_size": 16.0,
+  "buffer_font_family": "JetBrains Mono",
+  "auto_update": false,
+  "autosave": "on_focus_change",
+  "format_on_save": "on",
+  "formatter": "language_server",
+  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 16.0,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "Gruvbox Light Hard",
+    "dark": "Catppuccin Mocha",
+  },
+  "languages": {
+    "C++": {
+      "tab_size": 2,
+      "hard_tabs": false,
+    },
+  },
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "arguments": [
+          "--fallback-style=Google"
+        ],
+      },
+    },
+  },
+}

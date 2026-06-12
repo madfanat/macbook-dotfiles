@@ -1,0 +1,74 @@
+# Node.js
+brew "node"
+
+# Kreuzberg
+tap "kreuzberg-dev/tap"
+brew "kreuzberg"
+brew "tesseract"
+brew "onnxruntime"
+
+# Shell
+brew "fish"
+brew "bat"
+brew "ripgrep"
+brew "ripgrep-all"
+brew "fzf"
+brew "eza"
+brew "gh"
+brew "tokei"
+brew "gcovr"
+brew "ffmpeg"
+brew "yt-dlp"
+
+# Coding
+brew "cmake"
+brew "gcc"
+brew "python@3.14"
+brew "googletest"
+brew "typst"
+cask "mactex-no-gui"
+brew "uv"
+cask "temurin"
+
+# Agents
+brew "gemini-cli"
+cask "claude-code"
+cask "codex"
+cask "copilot-cli"
+cask "antigravity-cli"
+
+# Terminal
+cask "ghostty"
+
+# Minecraft launcher
+cask "prismlauncher"
+
+# Fonts
+cask "font-jetbrains-mono"
+
+# Application Launcher
+cask "raycast"
+ 
+# Zed editor
+cask "zed"
+
+# Music Player
+cask "spotify"
+
+# Code editor
+cask "visual-studio-code"
+vscode "catppuccin.catppuccin-vsc"
+vscode "catppuccin.catppuccin-vsc-icons"
+vscode "catppuccin.catppuccin-vsc-pack"
+
+# Media Player
+cask "iina"
+
+# Torrent manager
+cask "transmission"
+
+# Notes
+cask "obsidian"
+
+# Archiver
+cask "keka"
